@@ -1,2 +1,1 @@
-# About_leedawn
-LEEDAWN Portpolio 2021
+# About_leedawn ver.2021
