@@ -1,0 +1,28 @@
+header { 
+    position: relative;
+    height: 80px; 
+    text-align: center;
+}
+
+#navbar-container {
+    background-color: #fff;
+    width: 1425px;
+    height: 80px;
+}
+
+#navbar-container .wrap {
+    position: relative;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 92%;
+}
+
+#navbar-container 
+.nav-menu li a {
+    font-family: Josefin, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
