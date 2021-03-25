@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="MyWebFonts.css">
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset' rel='stylesheet' type='text/css'> 
+	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans&subset" rel="stylesheet" type="text/css"> 
 </head>
 <body>
 	<header>
 		<div id="ceiling">
 			<div id="navbar-container" class="clearfix">
 				<div id="wrap">
-					<div id="nav-left" class="nav-menu">
+					<div id="nav-left" class="nav-menu clearfix">
 						<nav>
 							<ul>
 								<li><a href="#a"><span>PROFILE</span></a></li>
@@ -28,11 +28,10 @@
 					</div>
 					<div id="logo">
 						<a href="#a" rel="home">
-							<img src="/About_leedawn/img/leedawn_darkLogo.png" class="logo-dark">
-							<img src="/About_leedawn/img/leedawn_lightLogo.gif" class="logo-light">
+							<img src="/About_leedawn/img/leedawn_lightLogo.gif" data-animated="/About_leedawn/img/leedawn_lightLogo.gif" data-static="/About_leedawn/img/leedawn_darkLogo.png" class="hov-logo">
 						</a>
 					</div>
-					<div id="nav-right" class="nav-menu">
+					<div id="nav-right" class="nav-menu clearfix">
 						<nav>
 							<ul>
 								<li><a href="#a"><span>GITHUB</span></a></li>
@@ -42,9 +41,12 @@
 						</nav>			
 					</div>
 				</div>
+				<!-- #wrap -->
+				::after
 			</div>
 		</div>
   </header>
+<script src="index.js"></script>  
 </body>
 </html>
 

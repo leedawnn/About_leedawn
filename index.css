@@ -1,28 +1,117 @@
-header { 
+#navbar-container 
+.nav-menu li a {
     position: relative;
+    font-family: Josefin, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+header { 
     height: 80px; 
     text-align: center;
 }
 
+#ceiling {
+    position: relative;
+    height: 0;
+    width: 100%;
+    overflow: visible;
+}
+
+#wrap {
+    display: inline;
+    margin: 0 auto;
+    width: 92%;
+}
+
 #navbar-container {
-    background-color: #fff;
+    position: fixed;
+    display: table;
+    table-layout: fixed;
+    background: #fff;
+    letter-spacing: 0.1em;
+    height: 80px;
+}
+
+#navbar-container .clearfix {
     width: 1425px;
     height: 80px;
 }
 
-#navbar-container .wrap {
-    position: relative;
+#nav-left.clearfix,
+#nav-right.clearfix {
+    width: 570px;
+    height: 80px;
 }
 
-.wrap {
-    margin: 0 auto;
-    max-width: 1140px;
-    width: 92%;
+#nav-left {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right:175px;
+}
+
+#nav-right {
+    float: right;
+    width: 50%;
+    text-align: left;
+    padding-left:175px;
+}
+
+#navbar-container 
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container 
+.nav-menu li {
+    display: inline;
 }
 
 #navbar-container 
 .nav-menu li a {
-    font-family: Josefin, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    line-height: 84px;
+    padding: 0 15px;
+}
+
+#navbar-container .nav-menu {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    float: left;
+    position: relative;
+    height: 60px;
+    padding: 0 50px 0 50px;
+}
+
+#logo a {
+    display: block;
+    position: relative;
+}
+
+#logo a img {
+    padding: .5rem;
+    height: auto;
+    max-width: 340px;
+    max-height: 80px;
+}
+
+#wrap:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    height: 6px;
+    top: 100%;
+    display: block;
+    background: url(http://www.msbsound.com/wordpress/wp-content/themes/magicstrawberrysound/img/nav-line.gif) 50% 50%;
 }
