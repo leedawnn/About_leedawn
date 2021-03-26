@@ -14,6 +14,12 @@ header {
     text-align: center;
 }
 
+body {
+    color: black;
+    width: 1425px;
+    height: 698px;
+}
+
 #ceiling {
     position: relative;
     height: 0;
@@ -92,6 +98,8 @@ header {
     height: 60px;
     width: auto;
     padding: 0 50px 0 50px;
+    max-width: 340px;
+    max-height: 80px;
 }
 
 #logo a {
@@ -102,8 +110,7 @@ header {
 #logo a img {
     padding: .5rem;
     height: auto;
-    max-width: 340px;
-    max-height: 80px;
+
 }
 
 #logo a .logo-light {
@@ -127,4 +134,9 @@ header {
     top: 100%;
     display: block;
     background: url(http://www.msbsound.com/wordpress/wp-content/themes/magicstrawberrysound/img/nav-line.gif) 50% 50%;
+}
+
+#video-container {
+    height: 100%; 
+    background-color: black;
 }
