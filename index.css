@@ -137,6 +137,11 @@ body {
 }
 
 #video-container {
-    height: 1419px; 
+    height: 706px; 
     background-color: black;
+}
+
+#video-container .video {
+    display: block;
+    width: 100%;
 }
