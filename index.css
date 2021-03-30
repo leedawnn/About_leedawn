@@ -140,7 +140,7 @@ body {
     background-color: black;
 }
 
-#video-container .video {
+#video-container video {
     display: block;
     width: 1425px;
     height: 666px;
