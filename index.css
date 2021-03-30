@@ -110,7 +110,6 @@ body {
 #logo a img {
     padding: .5rem;
     height: auto;
-
 }
 
 #logo a .logo-light {
@@ -144,4 +143,5 @@ body {
 #video-container .video {
     display: block;
     width: 100%;
+    height: 100%;
 }
