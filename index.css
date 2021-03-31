@@ -48,7 +48,8 @@ body {
     height: 80px;
 }
 
-#wrap:after {
+#wrap:after, 
+.nav-menu::after {
     clear: both;
 }
 
