@@ -48,7 +48,7 @@ body {
     height: 80px;
 }
 
-#navbar-container:after {
+#wrap:after {
     clear: both;
 }
 
