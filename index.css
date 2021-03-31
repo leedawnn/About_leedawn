@@ -33,6 +33,7 @@ body {
     width: 92%;
 }
 
+
 #navbar-container {
     position: fixed;
     display: table;
@@ -45,6 +46,10 @@ body {
 #navbar-container .clearfix {
     width: 1425px;
     height: 80px;
+}
+
+#navbar-container:after {
+    clear: both;
 }
 
 #nav-left.clearfix,
