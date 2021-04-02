@@ -185,7 +185,7 @@ header:after {
 footer {
     display: block;
     width: 1440px;
-    height: 175px;
+    height: 180px;
     background-color: black;
 }
 
@@ -203,6 +203,7 @@ footer .contact-links {
     width: 50%;
     display: inline-block;
     letter-spacing: 0.1em;
+    padding-left: 30px;
 }
 
 footer .contact-links a {
@@ -215,8 +216,12 @@ footer .contact-links a {
     margin-right: 30px;
 }
 
+footer .contact-links a:hover {
+    color: #ffdf23 !important;
+}
+
 footer .clearfix {
-    padding: 0 0 20px 0;
+    padding: 10px 0 15px 0;
 }
 
 footer .site-infos,
@@ -225,6 +230,7 @@ footer .site-quote {
     font-weight: 400;
     color: #fff;
     text-align: center;
+    line-height: 150%;
 }
 
 footer .site-quote span {
