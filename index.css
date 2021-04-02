@@ -1,12 +1,44 @@
+#navbar-container {
+    position: fixed;
+    display: table;
+    table-layout: fixed;
+    background: #fff;
+    letter-spacing: 0.1em;
+    height: 80px;
+    width: 1440px;
+    z-index: 1;
+}
+
 #navbar-container 
 .nav-menu li a {
     position: relative;
+    display: inline-block;
     font-family: Josefin, sans-serif;
     font-size: 17px;
     font-weight: 900;
     color: #000000;
     text-decoration: none;
     letter-spacing: 0.1em;
+    transition: color ease .2s;
+}
+
+#navbar-container .nav-menu li#menu-item-1:hover a {
+    color: #ffdf23 !important;
+}
+#navbar-container .nav-menu li#menu-item-2:hover a {
+    color: #ff0059 !important;
+}
+#navbar-container .nav-menu li#menu-item-3:hover a {
+    color: #ff5900 !important;
+}
+#navbar-container .nav-menu li#menu-item-4:hover a {
+    color: #8e8eff !important;
+}
+#navbar-container .nav-menu li#menu-item-5:hover a {
+    color: #017a01 !important;
+}
+#navbar-container .nav-menu li#menu-item-6:hover a {
+    color: #51ffc2 !important;
 }
 
 header { 
@@ -31,16 +63,7 @@ body {
     display: inline;
     margin: 0 auto;
     width: 92%;
-}
-
-
-#navbar-container {
-    position: fixed;
-    display: table;
-    table-layout: fixed;
-    background: #fff;
-    letter-spacing: 0.1em;
-    height: 80px;
+    max-width: 1140px;
 }
 
 #navbar-container .clearfix {
@@ -49,7 +72,7 @@ body {
 }
 
 #wrap:after, 
-.nav-menu::after {
+header:after {
     clear: both;
 }
 
@@ -114,7 +137,7 @@ body {
 }
 
 #logo a img {
-    padding: .5rem;
+    padding: .3rem;
     height: auto;
 }
 
@@ -130,7 +153,8 @@ body {
     display: none
 }
 
-#wrap:after {
+#wrap:after,
+header:after {
     position: absolute;
     left: 0;
     right: 0;
@@ -138,15 +162,21 @@ body {
     height: 6px;
     top: 100%;
     display: block;
-    background: url(/About_leedawn/img/nav-line.gif) 50% 50%;
+    text-decoration: none;
+    color: transparent;
+    background: url(img/nav-line.gif) 50% 50%;
 }
 
 #video-container {
+    display: flex;
     height: 706px; 
+    width: 1440px;
     background-color: black;
 }
 
 #video-container video {
     display: block;
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
