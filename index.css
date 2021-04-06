@@ -203,7 +203,7 @@ footer .contact-links {
     width: 50%;
     display: inline-block;
     letter-spacing: 0.1em;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 footer .contact-links a {
@@ -240,3 +240,10 @@ footer .site-quote span {
     text-align: center;
     letter-spacing: 0.1em;
 }
+
+::-moz-selection {
+    background: #FADA5E;
+ }
+ ::selection {
+    background:#FADA5E;
+ }
