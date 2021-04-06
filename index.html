@@ -46,7 +46,7 @@
 		</div>
   </header>
 	<div id="video-container" style="padding: 0 0 0 0; position: relative;"> 
-		<video controls autoplay="" width="1440" height="665" src="video/sparkling.mov?autoplay=1&" preload="" loop="3"></video>
+		<video id="vid" width="1440" height="665" autoplay preload loop muted src="video/sparkling.mov?autoplay=1&"></video>
   </div>
   <footer id="contentinfo">
 		<div id="wrap">
@@ -64,6 +64,9 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		document.getElementById('vid').play();
+	</script>
 </body>
 </html>
 
